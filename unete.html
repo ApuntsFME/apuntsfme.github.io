@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="description" content="The Page Description">
+		<style type="text/css">@-ms-viewport{width: device-width;}</style>
+		<title>Únete - ApuntsFME</title>
+		<link rel="stylesheet" href="css/layers.min.css" media="screen">
+		<link rel="stylesheet" href="css/font-awesome.min.css" media="screen">
+		<link rel="stylesheet" href="style.css" media="screen">
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-touch-icon.png?v=5">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png?v=5">
+		<link rel="icon" type="image/png" sizes="192x192" href="img/icons/android-chrome-192x192.png?v=5">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png?v=5">
+		<link rel="manifest" href="img/icons/site.webmanifest?v=5">
+		<link rel="mask-icon" href="img/icons/safari-pinned-tab.svg?v=5" color="#1fb9e4">
+		<link rel="shortcut icon" href="img/icons/favicon.ico?v=5">
+		<meta name="msapplication-TileColor" content="#00aba9">
+		<meta name="msapplication-TileImage" content="img/icons/mstile-144x144.png?v=5">
+		<meta name="msapplication-config" content="img/icons/browserconfig.xml?v=5">
+		<meta name="theme-color" content="#fbfbfb">
+		
+		<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	</head>
+
+	<body class="page">
+
+		<header role="banner" class="transparent light">
+			<div class="row">
+				<div class="nav-inner row-content buffer-left buffer-right even clear-after">
+					<div id="brand">
+						<h1 class="reset"><!--<img src="img/logo.png" alt="logo">--><a href="index.html">ApuntsFME</a></h1>
+					</div><!-- brand -->
+					<a id="menu-toggle" href="#"><i class="fa fa-bars fa-lg"></i></a>
+					<nav>
+						<ul class="reset" role="navigation">
+							<li class="menu-item">
+								<a href="index.html">Inicio</a>
+							</li>
+							<li class="menu-item">
+								<a href="apuntes.html">Apuntes</a>
+								<ul class="sub-menu">
+									<li><a href="apuntes.html?select=pri">Primero</a></li>
+									<li><a href="apuntes.html?select=seg">Segundo</a></li>
+									<li style="text-transform: none;"><a href="apuntsfib.html">ApuntsFIB</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<a id="hwa-link" href="index.html?section=hwa">¿Quiénes somos?</a>
+							</li>
+							<li class="menu-item">
+								<a id="servicios-link" href="servicios.html">Servicios</a>
+							</li>
+							<li class="menu-item"><a href="unete.html">Únete al proyecto</a></li>
+						</ul>
+					</nav>
+				</div><!-- row-content -->
+			</div><!-- row -->
+		</header>
+
+		<main role="main">
+			<div id="intro-wrap" data-height="22.222">
+				<div id="intro" class="preload darken">
+					<div class="intro-item" style="background-image: url(img/backgrounds/unete-01.jpg);">
+						<div class="caption">
+							<h2>Forma parte de ApuntsFME</h2>
+							<p>Rellena el formulario para que nos pongamos en contacto contigo para empezar los trámites. Es fácil, rápido y gratuito.</p>
+						</div><!-- caption -->
+					</div>
+				</div><!-- intro -->
+			</div><!-- intro-wrap -->
+
+			<div id="main">
+				<section class="row section">
+					<div class="row-content buffer even clear-after">
+						<div class="section-title"><h3>Rellena el formulario</h3></div>
+						<p>Nos agrada saber que hay gente como tú, dispuesta a colaborar y a ayudar a sus compañeros de clase pasando apuntes. Y por ello, queremos transmitirte un mensaje de sosiego y calma. Es posible que el dominio del LaTeX no sea tu fuerte, pero tranquilo, el resto de profesionales del equipo estarán a tu lado para echarte una mano (a la butifarra, por supuesto).</p>
+						<div class="column nine">
+							<form id="contact-form" class="contact-section" method="post" action="">
+								<span class="pre-input"><i class="icon icon-user"></i></span>
+								<input id="name" class="name plain buffer" type="text" name="name" placeholder="Nombre y Apellidos">
+								<span class="pre-input"><i class="icon icon-email"></i></span>
+								<input id="mail" class="email plain buffer" type="email" name="email" placeholder="Dirección de email">
+								<span class="pre-input"><i class="fa fa-github"></i></span>
+								<input id="github" class="name plain buffer" type="text" name="github" placeholder="Nombre de usuario de Github"></input>
+								<input id="send" class="plain button red" type="button" value="Enviar">
+							</form>
+							<div id="success"></div>
+						</div>
+						<div class="column three last">
+							<div class="widget">
+								<h4>Si tienes mas tiempo libre...</h4>
+								<p>
+									Adoctrinate un poco (gratis y para toda la familia). ¡Léete el Loose Canon! Haz click <a href="http://www.loose-canon.info/Loose-Canon-1st-Ed.pdf"><i>aquí</i></a>.
+								</p>
+							</div>
+							<div class="widget">
+								<h4>Contacta por las redes</h4>
+								<ul class="inline meta-social">
+									<li><a onclick="trollMsg();" class="twitter-share border-box troll"><i class="fa fa-twitter fa-lg"></i></a></li>
+									<li><a onclick="trollMsg();" class="facebook-share border-box"><i class="fa fa-facebook fa-lg troll"></i></a></li>
+									<li><a onclick="trollMsg();" class="pinterest-share border-box"><i class="fa fa-pinterest fa-lg troll"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<button style="display: none;" onclick="destroy()" id="trigger"></button>
+			</div><!-- id-main -->
+		</main><!-- main -->
+
+		<footer role="contentinfo">
+			<div class="row">
+				<div class="row-content buffer clear-after">
+					<section id="top-footer">
+						<div class="widget column four"><!-- la class="widget" è forse generata utomaticamente da wp -->
+							<h4>Menú</h4>
+							<ul class="plain">
+								<li><a href="index.html">Inicio</a></li>
+								<li><a href="apuntes.html">Apuntes</a></li>
+								<li><a href="apuntsfib.html">ApuntsFIB</a></li>
+								<li><a href="index.html?section=hwa">¿Quiénes somos?</a></li>
+								<li><a href="servicios.html">Servicios</a></li>
+								<li><a href="unete.html">Únete al proyecto</a></li>
+							</ul>
+						</div>
+						<div class="widget column four">
+							<h4>¿Aburrido?</h4>
+							<p>Debes estar aburrido si estas leyendo esto... ¿Por qué no pasas unos apuntes a LaTeX? <i class="em em-wink"></i>.</p>
+						</div>
+						<div class="widget meta-social column four last">
+							<h4>Síguenos</h4>
+							<ul class="inline">
+								<li><a onclick="trollMsg();" class="twitter-share border-box troll"><i class="fa fa-twitter fa-lg"></i></a></li>
+								<li><a onclick="trollMsg();" class="facebook-share border-box"><i class="fa fa-facebook fa-lg troll"></i></a></li>
+								<li><a onclick="trollMsg();" class="pinterest-share border-box"><i class="fa fa-pinterest fa-lg troll"></i></a></li>
+							</ul>
+						</div>
+					</section><!-- top-footer -->
+					<section id="bottom-footer">
+						<p class="keep-left">&copy; 2014 <a href="http://mokaine.com/" alt="Mokaine Lab">Mokaine</a>. All Rights Reserved.</p>
+						<p class="keep-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. (¿Lo has leido entero?)</p>
+					</section><!-- bottom-footer -->
+				</div><!-- row-content -->
+			</div><!-- row -->
+		</footer>
+	</body>
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/beetle.js"></script>
+	<script>
+
+	function validateEmail(email) {
+	    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	    return re.test(email);
+	}
+
+	function check_troll_form() {
+		var name = $('#name').val();
+		var mail = $('#mail').val();
+		var  github = $('#github').val();
+
+		if (name.length == 0) {
+			$('#success').html('<p style="color:#F84B3C;">Ops! Se te olvidó rellenar el nombre</p>');
+			return false;
+		}
+		if (name.length < 5) {
+			$('#success').html('<p style="color:#F84B3C;">Tío, el nombre no tiene ni 5 letras...</p>');
+			return false;
+		}
+		if (!validateEmail(mail)) {
+			$('#success').html('<p style="color:#F84B3C;">Seguro que lo puedes hacer mejor, prueba con un email de verdad.</p>');
+			return false;
+		}
+		if (github.length == "") {
+			$('#success').html('<p style="color:#F84B3C;">Oops! Se te olvidó rellenar el usuario de github.</p>');
+			return false;
+		}
+		if (github.length < 5) {
+			$('#success').html('<p style="color:#F84B3C;">¿"' + github + '" de verdad? Que tan tontos no somos, por favor.</p>');
+			return false;
+		}
+		return true;
+	}
+
+	$(document).ready(function(){
+		$('#send').click(function(){
+			if (!check_troll_form()) {
+				return;
+			}
+			$('#success').html('');
+			var puntitos = setInterval(function() {
+				$('#send').val('Enviando.');
+				setTimeout(function(){
+					$('#send').val('Enviando..');
+				}, 500);
+				setTimeout(function() {
+					$('#send').val('Enviando...');
+				}, 1000);
+			}, 1500);
+
+			setTimeout(function() {
+				$('#success').html('<p>¿A qué esperas?</p>');
+			}, 10000);
+
+			setTimeout(function() {
+				$('#success').html('<p>Diría que esto no funciona...</p>');
+			}, 14000);
+
+			setTimeout(function() {
+				$('#success').html('<p>Yo me daría por vencido</p>');
+			}, 18000);
+
+			setTimeout(function() {
+				$('#success').html('<p>Si no lo paras tú, lo paro yo</p>');
+
+			}, 22000);
+
+			setTimeout(function() {
+				var mierda = setInterval(function() {
+					$('#send').val('Enviar');
+				}, 50
+				setTimeout(function() {
+					clearInterval(mierda);
+				}, 2500);
+				$('#success').html('');
+				alert("Estás siendo muy canso");
+				clearInterval(puntitos);
+				setTimeout(function() {
+					$('#success').html('<p>No, no va a pasar nada más</p>');
+					setTimeout(function() {
+						$('#success').html('');
+					}, 3000);
+				}, 5000);
+			}, 30000);
+			// $(this).val('Sending ...');
+			// //TODO tocar esto con Oscar
+			// $('#success p').remove();
+			// $.post('contact/contact.php', $('#contact-form').serialize(), function(response) {
+			// 	$('#success').html(response);
+			// 	$('#send').val('Send a Message');
+			// 	// $('#success').hide('slow');
+			// });
+			// return false;
+		});
+	});
+	</script>
+	<script src="js/troll.js"></script>
+</html>
