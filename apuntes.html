@@ -223,23 +223,23 @@
 			var vars = query.split('&');
 			for (var i = 0; i < vars.length; i++) {
 				var pair = vars[i].split('=');
-				if (decodeURIComponent(pair[0]) == variable) {
+				if (decodeURIComponent(pair[0]) === variable) {
 					return decodeURIComponent(pair[1]);
 				}
 			}
-			console.log('Query variable %s not found', variable);
+			console.error('Query variable %s not found', variable);
 		}
 
-		$(document).ready(function selectCompopnent() {
+		window.onload = function selectCompopnent() {
 			var s = getQueryVariable("select");
 			if (s) {
-				if (s == "seg")
+				if (s === "seg")
 					return $("#select-seg").trigger("click");
-				if (s == "pri")
+				if (s === "pri")
 					return $("#select-pri").trigger("click");
 			}
 			return $("#select-all").trigger("click");
-		});
+		};
 	</script>
 	<script src="js/troll.js"></script>
 </html>
