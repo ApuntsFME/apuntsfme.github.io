@@ -15,7 +15,7 @@
    viewBox="0 0 105.83333 79.374992"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.1 r15371"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="ejercicios.svg">
   <defs
      id="defs2">
@@ -49,16 +49,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4"
-     inkscape:cx="181.66059"
+     inkscape:cx="130.91059"
      inkscape:cy="153.57768"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="2560"
-     inkscape:window-height="1477"
+     inkscape:window-width="1600"
+     inkscape:window-height="836"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -78,14 +78,14 @@
      id="layer1"
      transform="translate(0,-217.62501)">
     <rect
-       style="fill:#e6dcff;fill-opacity:1;stroke-width:0.2501511"
+       style="fill:#d9d5a3;fill-opacity:1;stroke-width:0.2501511"
        id="rect4583"
        width="105.83334"
        height="79.375"
        x="0"
        y="217.62502" />
     <circle
-       style="fill:#2aaa84;fill-opacity:1;stroke-width:0.18708867"
+       style="fill:#786a6c;fill-opacity:1;stroke-width:0.18708867"
        id="path3774"
        cx="52.916668"
        cy="257.3125"
@@ -93,18 +93,18 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot4730"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#e6dcff;stroke-width:1.51181102;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#d9d5a3;stroke-width:1.51181102;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
        transform="matrix(0.26458333,0,0,0.26458333,0.97620532,216.56667)"><flowRegion
          id="flowRegion4732"
-         style="fill:none;fill-opacity:1;stroke:#e6dcff;stroke-width:1.51181102;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"><rect
+         style="fill:none;fill-opacity:1;stroke:#d9d5a3;stroke-width:1.51181102;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"><rect
            id="rect4734"
            width="98.75"
            height="46.5"
            x="151.75"
            y="207.5"
-           style="fill:none;fill-opacity:1;stroke:#e6dcff;stroke-width:1.51181102;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" /></flowRegion><flowPara
+           style="fill:none;fill-opacity:1;stroke:#d9d5a3;stroke-width:1.51181102;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" /></flowRegion><flowPara
          id="flowPara4736"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:none;fill-opacity:1;stroke:#e6dcff;stroke-width:1.51181102;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;">TOP</flowPara></flowRoot>    <g
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:none;fill-opacity:1;stroke:#d9d5a3;stroke-width:1.51181102;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;">TOP</flowPara></flowRoot>    <g
        id="g4862"
        transform="matrix(0.0573939,0,0,0.0573939,38.223828,237.92884)">
       <g

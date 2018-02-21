@@ -14,7 +14,7 @@
    viewBox="0 0 105.83333 79.374992"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.1 r15371"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="f_ci.svg">
   <defs
      id="defs2" />
@@ -25,17 +25,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.313708"
-     inkscape:cx="178.32562"
-     inkscape:cy="123.58911"
+     inkscape:zoom="1.4142135"
+     inkscape:cx="-146.89958"
+     inkscape:cy="94.232109"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="2560"
-     inkscape:window-height="1477"
+     inkscape:window-width="1600"
+     inkscape:window-height="836"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -55,14 +55,14 @@
      id="layer1"
      transform="translate(0,-217.62501)">
     <rect
-       style="fill:#cdffbb;fill-opacity:1;stroke-width:0.2501511"
+       style="fill:#b7d4b1;fill-opacity:1;stroke-width:0.2501511"
        id="rect4583"
        width="105.83334"
        height="79.375"
        x="0"
        y="217.62502" />
     <circle
-       style="fill:#273b7a;fill-opacity:1;stroke-width:0.18708867"
+       style="fill:#40585c;fill-opacity:1;stroke-width:0.18708867"
        id="path3774"
        cx="52.916668"
        cy="257.3125"
@@ -75,11 +75,11 @@
         <polygon
            id="polygon4823"
            points="190.958,492.399 150.207,492.399 167.249,412.465 172.15,389.477 212.901,389.477 208.001,412.465 "
-           style="fill:#8d5f3d;fill-opacity:1" />
+           style="fill:#919371;fill-opacity:1" />
         <polygon
            id="polygon4825"
            points="303.995,412.465 299.095,389.477 339.846,389.477 344.746,412.465 361.789,492.399 321.038,492.399 "
-           style="fill:#8d5f3d;fill-opacity:1" />
+           style="fill:#919371;fill-opacity:1" />
       </g>
       <g
          id="g4833"
@@ -87,22 +87,22 @@
         <polygon
            id="polygon4829"
            points="172.15,389.477 212.901,389.477 208.001,412.465 167.249,412.465 "
-           style="fill:#623f33;fill-opacity:1" />
+           style="fill:#696b49;fill-opacity:1" />
         <polygon
            id="polygon4831"
            points="344.746,412.465 303.995,412.465 299.095,389.477 339.846,389.477 "
-           style="fill:#623f33;fill-opacity:1" />
+           style="fill:#696b49;fill-opacity:1" />
       </g>
       <path
          id="path4835"
          d="M 496.805,391.042 H 15.195 C 6.803,391.042 0,384.239 0,375.847 V 34.795 C 0,26.402 6.803,19.6 15.195,19.6 h 481.609 c 8.392,0 15.195,6.803 15.195,15.195 v 341.053 c 10e-4,8.391 -6.802,15.194 -15.194,15.194 z"
-         style="fill:#8d5f3d;fill-opacity:1"
+         style="fill:#919371;fill-opacity:1"
          inkscape:connector-curvature="0" />
       <rect
          id="rect4837"
          height="310.836"
          width="451.396"
-         style="fill:#008000"
+         style="fill:#228844;fill-opacity:1"
          y="49.902"
          x="30.302" />
       <g
@@ -181,15 +181,15 @@
     </g>
     <g
        aria-label="CI"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#273b7a;fill-opacity:1;stroke:#cdffbb;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#dffcd9;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="text4982">
       <path
          d="m 54.376528,280.47512 q -0.54777,0.28422 -1.142049,0.42891 -0.594279,0.1447 -1.240234,0.1447 -1.927531,0 -3.054077,-1.07487 -1.126546,-1.08004 -1.126546,-2.92489 0,-1.85002 1.126546,-2.92489 1.126546,-1.08003 3.054077,-1.08003 0.645955,0 1.240234,0.14469 0.594279,0.1447 1.142049,0.42892 v 1.5968 q -0.552938,-0.37724 -1.090372,-0.55294 -0.537435,-0.1757 -1.131714,-0.1757 -1.064535,0 -1.674317,0.68213 -0.609782,0.68213 -0.609782,1.88102 0,1.19373 0.609782,1.87586 0.609782,0.68212 1.674317,0.68212 0.594279,0 1.131714,-0.1757 0.537434,-0.1757 1.090372,-0.55293 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#273b7a;fill-opacity:1;stroke:#cdffbb;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:none;fill-opacity:1;stroke:#dffcd9;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path5047" />
       <path
          d="m 56.030174,273.18357 h 1.989543 v 7.71529 h -1.989543 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#273b7a;fill-opacity:1;stroke:#cdffbb;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:none;fill-opacity:1;stroke:#dffcd9;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path5049" />
     </g>
   </g>

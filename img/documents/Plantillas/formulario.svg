@@ -14,7 +14,7 @@
    viewBox="0 0 105.83333 79.374992"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.1 r15371"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="formulario.svg">
   <defs
      id="defs2" />
@@ -26,16 +26,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="94.853445"
+     inkscape:cx="-6.646555"
      inkscape:cy="64.063617"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="2560"
-     inkscape:window-height="1477"
+     inkscape:window-width="1600"
+     inkscape:window-height="836"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,54 +55,65 @@
      id="layer1"
      transform="translate(0,-217.62501)">
     <rect
-       style="fill:#cdffbb;fill-opacity:1;stroke-width:0.2501511"
+       style="fill:#b7d4b1;fill-opacity:1;stroke-width:0.2501511"
        id="rect4583"
        width="105.83334"
        height="79.375"
        x="0"
        y="217.62502" />
     <circle
-       style="fill:#273b7a;fill-opacity:1;stroke-width:0.18708867"
+       style="fill:#40585c;fill-opacity:1;stroke-width:0.18708867"
        id="path3774"
        cx="52.916668"
        cy="257.3125"
        r="33.072918" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#cdffbb;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+       x="47.286522"
+       y="280.89886"
+       id="text4982"><tspan
+         sodipodi:role="line"
+         id="tspan4980"
+         x="47.286522"
+         y="280.89886"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:none;fill-opacity:1;stroke:#cdffbb;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;">CI</tspan></text>
     <g
        id="g4926"
-       transform="matrix(0.05922388,0,0,0.05721282,37.755248,237.90355)">
+       transform="matrix(0.05922388,0,0,0.05721282,37.755,237.90347)">
       <g
          id="g4827">
         <polygon
            id="polygon4823"
            points="190.958,492.399 150.207,492.399 167.249,412.465 172.15,389.477 212.901,389.477 208.001,412.465 "
-           style="fill:#8d5f3d;fill-opacity:1" />
+           style="fill:#919371;fill-opacity:1" />
         <polygon
            id="polygon4825"
            points="303.995,412.465 299.095,389.477 339.846,389.477 344.746,412.465 361.789,492.399 321.038,492.399 "
-           style="fill:#8d5f3d;fill-opacity:1" />
+           style="fill:#919371;fill-opacity:1" />
       </g>
       <g
          id="g4833"
          style="fill:#623f33;fill-opacity:1">
         <polygon
            id="polygon4829"
-           points="172.15,389.477 212.901,389.477 208.001,412.465 167.249,412.465 "
-           style="fill:#623f33;fill-opacity:1" />
+           points="208.001,412.465 167.249,412.465 172.15,389.477 212.901,389.477 "
+           style="fill:#696b49;fill-opacity:1" />
         <polygon
            id="polygon4831"
-           points="344.746,412.465 303.995,412.465 299.095,389.477 339.846,389.477 "
-           style="fill:#623f33;fill-opacity:1" />
+           points="299.095,389.477 339.846,389.477 344.746,412.465 303.995,412.465 "
+           style="fill:#696b49;fill-opacity:1" />
       </g>
       <path
          id="path4835"
          d="M 496.805,391.042 H 15.195 C 6.803,391.042 0,384.239 0,375.847 V 34.795 C 0,26.402 6.803,19.6 15.195,19.6 h 481.609 c 8.392,0 15.195,6.803 15.195,15.195 v 341.053 c 10e-4,8.391 -6.802,15.194 -15.194,15.194 z"
-         style="fill:#8d5f3d;fill-opacity:1"
+         style="fill:#919371;fill-opacity:1"
          inkscape:connector-curvature="0" />
       <rect
          id="rect4837"
          height="310.836"
          width="451.396"
-         style="fill:#008000"
+         style="fill:#228844;fill-opacity:1"
          y="49.902"
          x="30.302" />
       <g
@@ -179,16 +190,5 @@
       <g
          id="g4885" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#273b7a;fill-opacity:1;stroke:#cdffbb;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="47.286522"
-       y="280.89886"
-       id="text4982"><tspan
-         sodipodi:role="line"
-         id="tspan4980"
-         x="47.286522"
-         y="280.89886"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#273b7a;fill-opacity:1;stroke:#cdffbb;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">CI</tspan></text>
   </g>
 </svg>
