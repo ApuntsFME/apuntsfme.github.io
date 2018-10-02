@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="description" content="The Page Description">
+		<style type="text/css">@-ms-viewport{width: device-width;}</style>
+		<title>Únete - ApuntsFME</title>
+		<link rel="stylesheet" href="css/layers.min.css" media="screen">
+		<link rel="stylesheet" href="css/font-awesome.min.css" media="screen">
+		<link rel="stylesheet" href="style.css" media="screen">
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-touch-icon.png?v=6">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png?v=6">
+		<link rel="icon" type="image/png" sizes="192x192" href="img/icons/android-chrome-192x192.png?v=6">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png?v=6">
+		<link rel="manifest" href="img/icons/site.webmanifest?v=6">
+		<link rel="mask-icon" href="img/icons/safari-pinned-tab.svg?v=6" color="#8674b6">
+		<link rel="shortcut icon" href="img/icons/favicon.ico?v=6">
+		<meta name="msapplication-TileColor" content="#00aba9">
+		<meta name="msapplication-TileImage" content="img/icons/mstile-144x144.png?v=6">
+		<meta name="msapplication-config" content="img/icons/browserconfig.xml?v=6">
+		<meta name="theme-color" content="#fbfbfb">
+		
+		<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+        
+        <script>
+            
+            function validateEmail(email) {
+                var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                return re.test(email);
+            }
+    
+            function troll_form() {
+                var name = document.getElementById('name').value;
+                var mail = document.getElementById('mail').value;
+                var github = document.getElementById('github').value;
+                var suc = document.getElementById('success');
+                suc.innerHTML = '';
+                
+                setTimeout(function() {                
+                    if (name.length == 0)
+                        suc.innerHTML = '<p style="color:#F84B3C;">Ops! Se te olvidó rellenar el nombre</p>';
+                    else if (name.length == 0)
+                        suc.innerHTML = '<p style="color:#F84B3C;">Ops! Se te olvidó rellenar el nombre</p>';
+                    else if (!validateEmail(mail))
+                        suc.innerHTML = '<p style="color:#F84B3C;">Seguro que lo puedes hacer mejor, prueba con un email de verdad.</p>';
+                    else if (github.length == "")
+                        suc.innerHTML = '<p style="color:#F84B3C;">Oops! Se te olvidó rellenar el usuario de github.</p>';
+                    else if (github.length < 5)
+                        suc.innerHTML = '<p style="color:#F84B3C;">¿"' + github + '" de verdad? Que tan tontos no somos, por favor.</p>';
+                    else {
+                        troll();
+                }}, 100);
+            }
+            
+            // #AB94E9
+            function troll() {
+                var ESPERA = 5000;
+                
+                var send = document.getElementById('send').style.display = 'none';
+                var suc = document.getElementById('success');
+                suc.style.color = '#6A4BBC';
+                suc.style.fontWeight = 'bold';
+                suc.innerHTML = 'Enviando...';
+                var puntitos = setInterval(function() {
+                    if (suc.innerHTML.endsWith('...'))
+                        suc.innerHTML = 'Enviando';
+                    else
+                        suc.innerHTML += '.';
+                }, 500);
+                
+                var trol = document.getElementById('troll');
+                trol.style.color = '#6A4BBC';
+                setTimeout(function() {
+                    trol.innerHTML = 'Esto esta tardando mucho...';
+                    setTimeout(function() {
+                        trol.innerHTML = '¿Has adjuntado algún archivo que pese demasiado?';
+                        setTimeout(function() {
+                            trol.innerHTML = 'A ver, intentaré enviarlo al servidor norcoreano';
+                            setTimeout(function() {
+                                trol.innerHTML = 'Tampoco funciona, voy a contactar con el servicio técnico (¡MIQUEL!)';
+                                setTimeout(function() {
+                                    trol.innerHTML = 'Está reiniciando el movil, un segundo';
+                                    setTimeout(function() {
+                                        trol.innerHTML = 'El movil no le funciona, voy a probar a arreglarlo yo...';
+                                        clearInterval(puntitos);
+                                        destroy();
+                                    }, ESPERA);
+                                }, ESPERA);
+                            }, ESPERA);
+                        }, ESPERA);
+                    }, ESPERA);
+                }, ESPERA);
+                
+            }
+            
+            function destroy() {
+                var ESPERA = 3000;
+                var trol = document.getElementById('troll');
+                setTimeout(function() {
+                    document.getElementsByTagName('footer')[0].innerHTML = '';
+                    trol.innerHTML = 'Vale, así no era. Espera un momento que lo vuelvo a poner bien...';
+                    setTimeout(function() {
+                        document.getElementsByTagName('header')[0].innerHTML = '';
+                        trol.innerHTML = 'Uy, uy, tranquilo que ahora lo soluciono';
+                        setTimeout(function() {
+                            document.getElementById('intro-wrap').innerHTML = '';
+                            trol.innerHTML = 'Vale, vale, lo estoy empeorando, hago Ctrl+Z y te lo soluciono...'
+                            setTimeout(function() {
+                                document.getElementsByTagName('main')[0].innerHTML = '';
+                                window.scrollTo(0,0);
+                                var err = document.getElementById('error');
+                                var errDiv = document.getElementById('errDiv');
+                                errDiv.style.display = 'inline';
+                                document.body.style.overflow = 'hidden';
+                                setInterval(function() {
+                                    if (err.style.color == 'red') {
+                                        err.style.color = 'black';
+                                        errDiv.style.backgroundColor = 'red';
+                                    } else {
+                                        err.style.color = 'red';
+                                        errDiv.style.backgroundColor = 'black';
+                                    }
+                                }, 500);
+                                setTimeout(function() {
+                                    alert('Hmm, tranquilo, todo controlado. Voy a reiniciar la página (que eso siempre funciona).\n\n\tSolo un pequeño detalle, se perderán los cambios del formulario, pero a estas alturas no se si te debería importar demasiado...');
+                                    if (!confirm('Bueno, esto es por un tema legal...\n\n\tApuntsFME no se hace responsable de los virus, troyanos o malware en general que le puedan ocasionar los errores de la web, tanto los debidos a un error informático como los debidos a un error humano.\n\n\tDebido al error que acaba de ocurrir, ApuntsFME ha perdido el control de sus datos y no se hace resposable de que puedan acabar en empresas o individuos externos a la organización.\n\n¿Está usted de acuerdo con los términos establecidos previamente?')) {
+                                        alert('Vale, he hablado con los abogados de ApuntsFME y han elaborado una respuesta oficial:\n\n\tUps, que puta pena ¿no?');
+                                    }
+                                    location.reload();
+                                }, 3000)
+                            }, ESPERA);
+                        }, ESPERA);
+                    }, ESPERA);
+                }, ESPERA);
+            }
+        </script>
+	</head>
+
+	<body class="page">
+        <div id="errDiv" style="display: none; text-align: center; padding: 0px; margin: 0px; position: absolute; height: 100%; width: 100%; background-color: red;">
+            <h1 id="error" style="color:black; paddding: 0px; margin: 0px; position: relative; top: 50%; transform: translateY(-50%); font-size: 800%">ERROR!</h1>
+        </div>
+		<header role="banner" class="transparent light">
+			<div class="row">
+				<div class="nav-inner row-content buffer-left buffer-right even clear-after">
+					<div id="brand">
+						<h1 class="reset"><!--<img src="img/logo.png" alt="logo">--><a href="/">ApuntsFME</a></h1>
+					</div><!-- brand -->
+					<a id="menu-toggle" href="#"><i class="fa fa-bars fa-lg"></i></a>
+					<nav>
+						<ul class="reset" role="navigation">
+							<li class="menu-item">
+								<a href="/">Inicio</a>
+							</li>
+							<li class="menu-item">
+								<a href="apuntes">Apuntes</a>
+								<ul class="sub-menu">
+									<!--<li><a href="apuntes?select=pri">Primero</a></li>-->
+									<li><a href="apuntes?select=seg">Segundo</a></li>
+									<li><a href="apuntes?select=ter">Tercero</a></li>
+									<li style="text-transform: none;"><a href="apuntsfib">ApuntsFIB</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<a href="quienessomos">¿Quiénes somos?</a>
+							</li>
+							<li class="menu-item">
+								<a href="servicios">Servicios</a>
+							</li>
+							<li class="menu-item">
+								<a href="unete">Únete al proyecto</a>
+							</li>
+						</ul>
+					</nav>
+				</div><!-- row-content -->
+			</div><!-- row -->
+		</header>
+
+		<main role="main">
+			<div id="intro-wrap" data-height="22.222">
+				<div id="intro" class="preload darken">
+					<div class="intro-item" style="background-image: url(img/backgrounds/unete-01.jpg);">
+						<div class="caption">
+							<h2>Forma parte de ApuntsFME</h2>
+							<p>Rellena el formulario para que nos pongamos en contacto contigo para empezar los trámites. Es fácil, rápido y gratuito.</p>
+						</div><!-- caption -->
+					</div>
+				</div><!-- intro -->
+			</div><!-- intro-wrap -->
+
+			<div id="main">
+				<section class="row section">
+					<div class="row-content buffer even clear-after">
+						<div class="section-title"><h3>Rellena el formulario</h3></div>
+						<p>Nos agrada saber que hay gente como tú, dispuesta a colaborar y a ayudar a sus compañeros de clase pasando apuntes. Y por ello, queremos transmitirte un mensaje de sosiego y calma. Es posible que el dominio del LaTeX no sea tu fuerte, pero tranquilo, el resto de profesionales del equipo estarán a tu lado para echarte una mano (a la butifarra, por supuesto).</p>
+						<div class="column nine">
+							<form id="contact-form" class="contact-section" method="post" action="">
+								<span class="pre-input"><i class="icon icon-user"></i></span>
+								<input id="name" class="name plain buffer" type="text" name="name" placeholder="Nombre y Apellidos">
+								<span class="pre-input"><i class="icon icon-email"></i></span>
+								<input id="mail" class="email plain buffer" type="email" name="email" placeholder="Dirección de email">
+								<span class="pre-input"><i class="fa fa-github"></i></span>
+								<input id="github" class="name plain buffer" type="text" name="github" placeholder="Nombre de usuario de Github"></input>
+								<input id="send" class="plain button purple" type="button" value="Enviar" onclick="troll_form()">
+							</form>
+							<div id="success"></div>
+                            <div id="troll"></div>
+						</div>
+						<div class="column three last">
+							<div class="widget">
+								<h4 style="color: #AB94E9;">Si tienes más tiempo libre...</h4>
+								<p>
+									Adoctrinate un poco (gratis y para toda la familia). ¡Léete el Loose Canon! Haz click <a href="http://www.loose-canon.info/Loose-Canon-1st-Ed.pdf"><i>aquí</i></a>.
+								</p>
+							</div>
+							<div class="widget">
+								<h4 style="color: #AB94E9;">Contacta por las redes</h4>
+								<ul class="inline meta-social">
+									<li><a onclick="trollMsg();" class="twitter-share border-box troll"><i class="fa fa-twitter fa-lg"></i></a></li>
+									<li><a onclick="trollMsg();" class="facebook-share border-box"><i class="fa fa-facebook fa-lg troll"></i></a></li>
+									<li><a onclick="trollMsg();" class="pinterest-share border-box"><i class="fa fa-pinterest fa-lg troll"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<button style="display: none;" onclick="destroy()" id="trigger">BUEN EASTER EGG HAS ENCONTRADO</button>
+			</div><!-- id-main -->
+		</main><!-- main -->
+
+		<footer role="contentinfo">
+			<div class="row">
+				<div class="row-content buffer clear-after">
+					<section id="top-footer">
+						<div class="widget column four"><!-- la class="widget" è forse generata utomaticamente da wp -->
+							<h4>Menú</h4>
+							<ul class="plain">
+								<li><a href="/">Inicio</a></li>
+								<li><a href="apuntes">Apuntes</a></li>
+								<li><a href="apuntsfib">ApuntsFIB</a></li>
+								<li><a href="quienessomos">¿Quiénes somos?</a></li>
+								<li><a href="servicios">Servicios</a></li>
+								<li><a href="unete">Únete al proyecto</a></li>
+							</ul>
+						</div>
+						<div class="widget column four">
+							<h4>¿Aburrido?</h4>
+							<p>Debes estar aburrido si estas leyendo esto... ¿Por qué no pasas unos apuntes a LaTeX? <i class="em em-wink"></i>.</p>
+						</div>
+						<div class="widget meta-social column four last">
+							<h4>Síguenos</h4>
+							<ul class="inline">
+								<li><a onclick="trollMsg();" class="twitter-share border-box troll"><i class="fa fa-twitter fa-lg"></i></a></li>
+								<li><a onclick="trollMsg();" class="facebook-share border-box"><i class="fa fa-facebook fa-lg troll"></i></a></li>
+								<li><a onclick="trollMsg();" class="pinterest-share border-box"><i class="fa fa-pinterest fa-lg troll"></i></a></li>
+							</ul>
+						</div>
+					</section><!-- top-footer -->
+					<section id="bottom-footer">
+						<p class="keep-left">&copy; 2014 <a href="http://mokaine.com/" alt="Mokaine Lab">Mokaine</a>. All Rights Reserved.</p>
+						<p class="keep-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. (¿Lo has leido entero?)</p>
+					</section><!-- bottom-footer -->
+				</div><!-- row-content -->
+			</div><!-- row -->
+		</footer>
+	</body>
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/beetle.js"></script>
+	<script src="js/troll.js"></script>
+</html>
