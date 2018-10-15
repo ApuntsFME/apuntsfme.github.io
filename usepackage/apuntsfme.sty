@@ -187,12 +187,10 @@
 \makeindex
 \RequirePackage[totoc]{idxlayout}       % Glossari a l'índex
 
-\newif\if@babel\@babeltrue
-\DeclareOption{nobabel}{
-    \@babelfalse
-}
+\newif\if@babel\@babelfalse
 
 \DeclareOption{es}{
+    \@babeltrue
     \PassOptionsToPackage{spanish,es-lcroman}{babel}
     % Normal
     \declaretheorem[style=normal,name=Lema,numberwithin=section]{lema}
@@ -223,10 +221,22 @@
 
     % Breakthm
     \declaretheorem[style=breakthm,name=Teorema,sibling=lema]{teo}
+    
+    
+    
+    \@ifclassloaded{book}{%
+        \AtBeginDocument{\renewcommand{\contentsname}{Contenidos}}
+        \AtBeginDocument{\renewcommand{\chaptername}{Tema}}
+    }{}
+    
+    
+    
+    
 }
 
 \DeclareOption{ca}{
-    \@esfalse
+    \@babeltrue
+    \PassOptionsToPackage{catalan}{babel}
 
     % Normal
     \declaretheorem[style=normal,name=Lema,numberwithin=section]{lema}
@@ -261,10 +271,10 @@
 
 
 \ProcessOptions\relax
-\RequirePackage{babel}
+\if@babel
+    \RequirePackage{babel}
+\fi
 
 \endinput
-
-
 
 % ../../apuntsfme.github.io/usepackage/apuntsfme.sty
