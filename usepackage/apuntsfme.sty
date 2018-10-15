@@ -3,7 +3,6 @@
 
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[T1]{fontenc}
-\RequirePackage[a4paper,margin=1in]{geometry}
 \RequirePackage[pdftex]{hyperref}
 \RequirePackage{amsmath,amsthm,amssymb,graphicx,mathtools,tikz,hyperref,enumerate}
 \RequirePackage{mdframed,cleveref,cancel,stackengine,pgf,pgfplots,mathrsfs,thmtools}
@@ -187,10 +186,12 @@
 \makeindex
 \RequirePackage[totoc]{idxlayout}       % Glossari a l'índex
 
-\newif\if@babel\@babelfalse
+\newif\if@babel\@babeltrue
+\DeclareOption{nobabel}{
+    \@babelfalse
+}
 
 \DeclareOption{es}{
-    \@babeltrue
     \PassOptionsToPackage{spanish,es-lcroman}{babel}
     % Normal
     \declaretheorem[style=normal,name=Lema,numberwithin=section]{lema}
@@ -235,7 +236,6 @@
 }
 
 \DeclareOption{ca}{
-    \@babeltrue
     \PassOptionsToPackage{catalan}{babel}
 
     % Normal
