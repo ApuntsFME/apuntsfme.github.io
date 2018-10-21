@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="206.10164"
+     inkscape:cx="94.732325"
      inkscape:cy="124.8601"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -160,14 +160,14 @@
          id="g7949" />
     </g>
     <rect
-       style="fill:#f7f763;fill-opacity:1;stroke-width:0.2501511"
+       style="fill:#f7f77e;fill-opacity:1;stroke-width:0.2501511"
        id="rect4583"
        width="105.83334"
        height="79.375"
        x="0"
        y="217.62502" />
     <circle
-       style="fill:#f79400;fill-opacity:1;stroke-width:0.18708867"
+       style="fill:#f7b800;fill-opacity:1;stroke-width:0.18708867"
        id="path3774"
        cx="52.916668"
        cy="257.3125"
@@ -176,10 +176,10 @@
        transform="translate(24.341676,-5.258789e-6)"
        id="layer1-3"
        inkscape:label="Layer 1"
-       style="fill:none;stroke:#f7f763;stroke-opacity:1">
+       style="fill:none;stroke:#f7f77e;stroke-opacity:1">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#f7f763;stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#f7f77e;stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          x="21.882893"
          y="280.83115"
          id="text4858"><tspan
@@ -187,7 +187,7 @@
            id="tspan4856"
            x="21.882893"
            y="280.83115"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:none;fill-opacity:1;stroke:#f7f763;stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">IO</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:none;fill-opacity:1;stroke:#f7f77e;stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">IO</tspan></text>
     </g>
     <g
        id="g5233"
