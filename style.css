@@ -10,6 +10,33 @@
 */
 
 /*----------------------------------------------------------------
+    Customisations by ApuntsFME
+----------------------------------------------------------------*/
+
+.portfolio {
+    --color-apuntes: #e6dcff;
+    --color-ejercicios: #d9d5a3;
+    --color-formulario: #b7d4b1;
+    --color-presentacion: #ffe58b;
+    --color-resumen: #fac5cc;
+}
+
+.document-text {
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.8em;
+    font-family: sans-serif;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: white;
+}
+
+/*----------------------------------------------------------------
     General Rules
 ----------------------------------------------------------------*/
 
