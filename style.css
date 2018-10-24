@@ -10,6 +10,34 @@
 */
 
 /*----------------------------------------------------------------
+    Customisations by ApuntsFME
+----------------------------------------------------------------*/
+
+.portfolio {
+    --color-apuntes: #e6dcff;
+    --color-ejercicios: #d9d5a3;
+    --color-formulario: #b7d4b1;
+    --color-presentacion: #ffe58b;
+    --color-resumen: #fac5cc;
+    --color-tar: #f3ec93; /*fff8af #f3ec93*/
+}
+
+.document-text {
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.8em;
+    font-family: sans-serif;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: white;
+}
+
+/*----------------------------------------------------------------
     General Rules
 ----------------------------------------------------------------*/
 
@@ -1168,7 +1196,7 @@ nav ul.sub-menu > li:last-child > a {
     padding: 0 1em;
     height: 100%;
     border-bottom: none;
-    background-color: rgba(79,193,233,0.9);
+    background-color: rgba(134,116,182,0.9155);
     color: #fff;
     text-align: center;
     opacity: 0;
