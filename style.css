@@ -19,6 +19,7 @@
     --color-formulario: #b7d4b1;
     --color-presentacion: #ffe58b;
     --color-resumen: #fac5cc;
+    --color-tar: #f3ec93; /*fff8af #f3ec93*/
 }
 
 .document-text {
@@ -1195,7 +1196,7 @@ nav ul.sub-menu > li:last-child > a {
     padding: 0 1em;
     height: 100%;
     border-bottom: none;
-    background-color: rgba(79,193,233,0.9);
+    background-color: rgba(134,116,182,0.9155);
     color: #fff;
     text-align: center;
     opacity: 0;
