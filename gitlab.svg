@@ -1,60 +1,204 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="494px" height="455px" viewBox="0 0 494 455" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
-    <title>logo</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <path id="path-1" d="M0,1173.3333 L1999.99995,1173.3333 L1999.99995,0 L0,0 L0,1173.3333 L0,1173.3333 Z"></path>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="gitlab_logo" sketch:type="MSLayerGroup" transform="translate(-359.000000, -360.000000)">
-            <g id="g10" transform="translate(999.999975, 587.666648) scale(1, -1) translate(-999.999975, -587.666648) translate(0.000000, 0.999996)">
-                <g id="g16">
-                    <g id="g18-Clipped">
-                        <mask id="mask-2" sketch:name="path22" fill="white">
-                            <use xlink:href="#path-1"></use>
-                        </mask>
-                        <g id="path22"></g>
-                        <g id="g18" mask="url(#mask-2)">
-                            <g transform="translate(358.666658, 358.666658)">
-                                <g id="g44" transform="translate(0.532000, 0.774933)">
-                                    <path d="M491.999988,194.666662 L464.441322,279.481326 L409.82399,447.578655 C407.014656,456.226655 394.778657,456.226655 391.96799,447.578655 L337.349325,279.481326 L155.982663,279.481326 L101.362664,447.578655 C98.5533309,456.226655 86.3173312,456.226655 83.5066646,447.578655 L28.8893326,279.481326 L1.33199997,194.666662 C-1.18266664,186.930662 1.57199996,178.455996 8.1519998,173.674662 L246.665327,0.385333324 L485.179988,173.674662 C491.759988,178.455996 494.513321,186.930662 491.999988,194.666662" id="path46" fill="#FC6D26" sketch:type="MSShapeGroup"></path>
-                                </g>
-                                <g id="g48" transform="translate(155.197863, 1.160267)">
-                                    <path d="M91.9999977,0 L91.9999977,0 L182.683995,279.095993 L1.31599997,279.095993 L91.9999977,0 L91.9999977,0 Z" id="path50" fill="#E24329" sketch:type="MSShapeGroup"></path>
-                                </g>
-                                <g id="g52" transform="translate(247.197860, 1.160267)">
-                                    <g id="path54"></g>
-                                </g>
-                                <g id="g56" transform="translate(28.531199, 1.160800)">
-                                    <path d="M218.666661,0 L127.982663,279.09466 L0.890666644,279.09466 L218.666661,0 L218.666661,0 Z" id="path58" fill="#FC6D26" sketch:type="MSShapeGroup"></path>
-                                </g>
-                                <g id="g60" transform="translate(247.197860, 1.160800)">
-                                    <g id="path62"></g>
-                                </g>
-                                <g id="g64" transform="translate(0.088533, 0.255867)">
-                                    <path d="M29.3333326,279.999993 L29.3333326,279.999993 L1.77466662,195.185328 C-0.738666648,187.449329 2.01466662,178.974662 8.59599979,174.194662 L247.109327,0.905333311 L29.3333326,279.999993 L29.3333326,279.999993 Z" id="path66" fill="#FCA326" sketch:type="MSShapeGroup"></path>
-                                </g>
-                                <g id="g68" transform="translate(247.197860, 1.160267)">
-                                    <g id="path70"></g>
-                                </g>
-                                <g id="g72" transform="translate(29.421866, 280.255593)">
-                                    <path d="M0,0 L127.091997,0 L72.4733315,168.097329 C69.6626649,176.746662 57.4266652,176.746662 54.617332,168.097329 L0,0 L0,0 Z" id="path74" fill="#E24329" sketch:type="MSShapeGroup"></path>
-                                </g>
-                                <g id="g76" transform="translate(247.197860, 1.160800)">
-                                    <path d="M0,0 L90.6839977,279.09466 L217.775995,279.09466 L0,0 L0,0 Z" id="path78" fill="#FC6D26" sketch:type="MSShapeGroup"></path>
-                                </g>
-                                <g id="g80" transform="translate(246.307061, 0.255867)">
-                                    <path d="M218.666661,279.999993 L218.666661,279.999993 L246.225327,195.185328 C248.73866,187.449329 245.985327,178.974662 239.403994,174.194662 L0.890666644,0.905333311 L218.666661,279.999993 L218.666661,279.999993 Z" id="path82" fill="#FCA326" sketch:type="MSShapeGroup"></path>
-                                </g>
-                                <g id="g84" transform="translate(336.973725, 280.255593)">
-                                    <path d="M127.999997,0 L0.907999977,0 L55.5266653,168.097329 C58.3373319,176.746662 70.5733316,176.746662 73.3826648,168.097329 L127.999997,0 L127.999997,0 Z" id="path86" fill="#E24329" sketch:type="MSShapeGroup"></path>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="573.03998"
+   height="527.79999"
+   viewBox="0 0 573.03998 527.79999"
+   version="1.1"
+   id="svg43"
+   sodipodi:docname="gitlab.svg"
+   inkscape:version="0.92.2 2405546, 2018-03-11">
+  <metadata
+     id="metadata47">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1024"
+     inkscape:window-height="550"
+     id="namedview45"
+     showgrid="false"
+     inkscape:zoom="0.51868132"
+     inkscape:cx="247"
+     inkscape:cy="227.5"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg43" />
+  <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">logo</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs7">
+    <path
+       id="path-1"
+       d="M 0,1173.3333 H 1999 V 0 H 0 Z"
+       inkscape:connector-curvature="0" />
+  </defs>
+  <g
+     id="Page-1"
+     sketch:type="MSPage"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+     transform="translate(39.655758,36.233614)">
+    <g
+       id="gitlab_logo"
+       sketch:type="MSLayerGroup"
+       transform="translate(-359,-360)">
+      <g
+         id="g10"
+         transform="matrix(1,0,0,-1,0,1174.3333)">
+        <g
+           id="g16">
+          <g
+             id="g18-Clipped">
+            <mask
+               id="mask-2"
+               sketch:name="path22"
+               fill="white">
+              <use
+                 xlink:href="#path-1"
+                 id="use9"
+                 x="0"
+                 y="0"
+                 width="100%"
+                 height="100%" />
+            </mask>
+            <g
+               id="path22" />
+            <g
+               id="g18"
+               mask="url(#mask-2)">
+              <g
+                 transform="translate(358.66666,358.66666)"
+                 id="g35">
+                <g
+                   id="g44"
+                   transform="translate(0.532,0.774933)">
+                  <path
+                     d="m 491.99999,194.66666 -27.55867,84.81467 -54.61733,168.09733 c -2.80933,8.64799 -15.04533,8.64799 -17.856,0 L 337.34933,279.48133 H 155.98266 l -54.62,168.09733 c -2.809329,8.64799 -15.045329,8.64799 -17.855995,0 L 28.889333,279.48133 1.332,194.66666 c -2.5146666,-7.736 0.24,-16.21066 6.8199998,-20.992 L 246.66533,0.38533332 485.17999,173.67466 c 6.58,4.78134 9.33333,13.256 6.82,20.992"
+                     id="path46"
+                     sketch:type="MSShapeGroup"
+                     inkscape:connector-curvature="0"
+                     style="fill:#fc6d26" />
                 </g>
+                <g
+                   id="g48"
+                   transform="translate(155.19786,1.160267)">
+                  <path
+                     d="M 91.999998,0 V 0 L 182.68399,279.09599 H 1.316 Z"
+                     id="path50"
+                     sketch:type="MSShapeGroup"
+                     inkscape:connector-curvature="0"
+                     style="fill:#e24329" />
+                </g>
+                <g
+                   id="g52"
+                   transform="translate(247.19786,1.160267)">
+                  <g
+                     id="path54" />
+                </g>
+                <g
+                   id="g56"
+                   transform="translate(28.531199,1.1608)">
+                  <path
+                     d="m 218.66666,0 -90.684,279.09466 H 0.89066664 Z"
+                     id="path58"
+                     sketch:type="MSShapeGroup"
+                     inkscape:connector-curvature="0"
+                     style="fill:#fc6d26" />
+                </g>
+                <g
+                   id="g60"
+                   transform="translate(247.19786,1.1608)">
+                  <g
+                     id="path62" />
+                </g>
+                <g
+                   id="g64"
+                   transform="translate(0.088533,0.255867)">
+                  <path
+                     d="m 29.333333,279.99999 v 0 L 1.7746666,195.18533 c -2.51333325,-7.736 0.24,-16.21067 6.8213332,-20.99067 L 247.10933,0.90533331 Z"
+                     id="path66"
+                     sketch:type="MSShapeGroup"
+                     inkscape:connector-curvature="0"
+                     style="fill:#fca326" />
+                </g>
+                <g
+                   id="g68"
+                   transform="translate(247.19786,1.160267)">
+                  <g
+                     id="path70" />
+                </g>
+                <g
+                   id="g72"
+                   transform="translate(29.421866,280.25559)">
+                  <path
+                     d="M 0,0 H 127.092 L 72.473331,168.09733 c -2.810666,8.64933 -15.046666,8.64933 -17.855999,0 z"
+                     id="path74"
+                     sketch:type="MSShapeGroup"
+                     inkscape:connector-curvature="0"
+                     style="fill:#e24329" />
+                </g>
+                <g
+                   id="g76"
+                   transform="translate(247.19786,1.1608)">
+                  <path
+                     d="M 0,0 90.683998,279.09466 H 217.77599 Z"
+                     id="path78"
+                     sketch:type="MSShapeGroup"
+                     inkscape:connector-curvature="0"
+                     style="fill:#fc6d26" />
+                </g>
+                <g
+                   id="g80"
+                   transform="translate(246.30706,0.255867)">
+                  <path
+                     d="m 218.66666,279.99999 v 0 l 27.55867,-84.81466 c 2.51333,-7.736 -0.24,-16.21067 -6.82134,-20.99067 L 0.89066664,0.90533331 Z"
+                     id="path82"
+                     sketch:type="MSShapeGroup"
+                     inkscape:connector-curvature="0"
+                     style="fill:#fca326" />
+                </g>
+                <g
+                   id="g84"
+                   transform="translate(336.97372,280.25559)">
+                  <path
+                     d="M 128,0 H 0.90799998 L 55.526665,168.09733 c 2.810667,8.64933 15.046667,8.64933 17.856,0 z"
+                     id="path86"
+                     sketch:type="MSShapeGroup"
+                     inkscape:connector-curvature="0"
+                     style="fill:#e24329" />
+                </g>
+              </g>
             </g>
+          </g>
         </g>
+      </g>
     </g>
+  </g>
 </svg>
