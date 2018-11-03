@@ -1,3 +1,1 @@
-# Estamos alojados en GitLab
-
-Nos encontrarás en [apuntsfme.gitlab.io](https://apuntsfme.gitlab.io).
+# ApuntsFME es troba allotjat a GitLab
